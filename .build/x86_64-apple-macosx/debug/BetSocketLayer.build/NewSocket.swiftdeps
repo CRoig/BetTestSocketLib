@@ -1,0 +1,249 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "NewSocket"
+provides-nominal:
+- "14BetSocketLayer03NewB0C"
+provides-member:
+- ["14BetSocketLayer03NewB0C", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "+"
+- "BooleanLiteralType"
+- !private "CastingPrecedence"
+- !private "Double"
+- "FloatLiteralType"
+- "IntegerLiteralType"
+- "NewSocket"
+- "SocketManager"
+- "StringLiteralType"
+- "URL"
+- !private "print"
+depends-member:
+- !private ["Sa", "subscript"]
+- !private ["SK", "subscript"]
+- !private ["s7CVarArgP", "connect"]
+- !private ["s7CVarArgP", "defaultSocket"]
+- !private ["s7CVarArgP", "emit"]
+- !private ["s7CVarArgP", "emitWithAck"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "on"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "timingOut"]
+- !private ["s7CVarArgP", "with"]
+- ["8SocketIO12ClientOptionP", "compress"]
+- ["8SocketIO12ClientOptionP", "log"]
+- !private ["Sl", "subscript"]
+- !private ["8SocketIO14ConfigSettableP", "defaultSocket"]
+- ["8SocketIO14ConfigSettableP", "init"]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "connect"]
+- !private ["s28CustomDebugStringConvertibleP", "defaultSocket"]
+- !private ["s28CustomDebugStringConvertibleP", "emit"]
+- !private ["s28CustomDebugStringConvertibleP", "emitWithAck"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "on"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "timingOut"]
+- !private ["s28CustomDebugStringConvertibleP", "with"]
+- !private ["s17CustomReflectableP", "subscript"]
+- ["s23CustomStringConvertibleP", "compress"]
+- !private ["s23CustomStringConvertibleP", "connect"]
+- !private ["s23CustomStringConvertibleP", "defaultSocket"]
+- !private ["s23CustomStringConvertibleP", "emit"]
+- !private ["s23CustomStringConvertibleP", "emitWithAck"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "log"]
+- !private ["s23CustomStringConvertibleP", "on"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "timingOut"]
+- !private ["s23CustomStringConvertibleP", "with"]
+- !private ["10Foundation12DataProtocolP", "subscript"]
+- ["Se", "init"]
+- !private ["Se", "subscript"]
+- ["SE", "init"]
+- !private ["SE", "subscript"]
+- ["SQ", "compress"]
+- !private ["SQ", "connect"]
+- !private ["SQ", "defaultSocket"]
+- !private ["SQ", "emit"]
+- !private ["SQ", "emitWithAck"]
+- ["SQ", "init"]
+- ["SQ", "log"]
+- !private ["SQ", "on"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "timingOut"]
+- !private ["SQ", "with"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["SH", "connect"]
+- !private ["SH", "defaultSocket"]
+- !private ["SH", "emit"]
+- !private ["SH", "emitWithAck"]
+- ["SH", "init"]
+- !private ["SH", "on"]
+- !private ["SH", "subscript"]
+- !private ["SH", "timingOut"]
+- !private ["SH", "with"]
+- !private ["SM", "subscript"]
+- !private ["10Foundation19MutableDataProtocolP", "subscript"]
+- !private ["So8NSObjectC", "connect"]
+- !private ["So8NSObjectC", "defaultSocket"]
+- !private ["So8NSObjectC", "emit"]
+- !private ["So8NSObjectC", "emitWithAck"]
+- !private ["So8NSObjectC", "on"]
+- !private ["So8NSObjectC", "timingOut"]
+- !private ["So8NSObjectC", "with"]
+- !private ["So8NSObjectP", "connect"]
+- !private ["So8NSObjectP", "defaultSocket"]
+- !private ["So8NSObjectP", "emit"]
+- !private ["So8NSObjectP", "emitWithAck"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "on"]
+- !private ["So8NSObjectP", "timingOut"]
+- !private ["So8NSObjectP", "with"]
+- !private ["14BetSocketLayer03NewB0C", "Double"]
+- ["14BetSocketLayer03NewB0C", "SocketManager"]
+- ["14BetSocketLayer03NewB0C", "URL"]
+- ["14BetSocketLayer03NewB0C", "init"]
+- ["14BetSocketLayer03NewB0C", "manager"]
+- !private ["14BetSocketLayer03NewB0C", "print"]
+- ["14BetSocketLayer03NewB0C", "startListener"]
+- !private ["8SocketIO13OnAckCallbackC", "timingOut"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", "subscript"]
+- !private ["SY", "connect"]
+- ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["ST", "subscript"]
+- !private ["8SocketIO0A10AckEmitterC", "with"]
+- !private ["8SocketIO0A11ClientEventO", "connect"]
+- !private ["8SocketIO0A4DataP", "subscript"]
+- !private ["8SocketIO0A14DataBufferableP", "defaultSocket"]
+- ["8SocketIO0A14DataBufferableP", "init"]
+- !private ["8SocketIO0A12EngineClientP", "defaultSocket"]
+- ["8SocketIO0A12EngineClientP", "init"]
+- !private ["8SocketIO0A8IOClientC", "connect"]
+- !private ["8SocketIO0A8IOClientC", "emit"]
+- !private ["8SocketIO0A8IOClientC", "emitWithAck"]
+- !private ["8SocketIO0A8IOClientC", "on"]
+- ["8SocketIO0A14IOClientOptionO", "compress"]
+- ["8SocketIO0A14IOClientOptionO", "log"]
+- !private ["8SocketIO0A12IOClientSpecP", "connect"]
+- !private ["8SocketIO0A12IOClientSpecP", "emit"]
+- !private ["8SocketIO0A12IOClientSpecP", "emitWithAck"]
+- !private ["8SocketIO0A12IOClientSpecP", "on"]
+- !private ["8SocketIO0A7ManagerC", "defaultSocket"]
+- ["8SocketIO0A7ManagerC", "init"]
+- !private ["8SocketIO0A11ManagerSpecP", "defaultSocket"]
+- ["8SocketIO0A11ManagerSpecP", "init"]
+- !private ["8SocketIO0A8ParsableP", "defaultSocket"]
+- ["8SocketIO0A8ParsableP", "init"]
+- ["10Foundation3URLV", "init"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "connect"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "defaultSocket"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "emit"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "emitWithAck"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "on"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "timingOut"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "with"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "connect"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "defaultSocket"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "emit"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "emitWithAck"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "on"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "timingOut"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "with"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- !private "Sa"
+- !private "SK"
+- "s7CVarArgP"
+- "8SocketIO12ClientOptionP"
+- !private "Sl"
+- "8SocketIO14ConfigSettableP"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- "Se"
+- "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- "SH"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So8NSObjectC"
+- "So8NSObjectP"
+- "14BetSocketLayer03NewB0C"
+- !private "8SocketIO13OnAckCallbackC"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- "10Foundation20ReferenceConvertibleP"
+- !private "ST"
+- !private "8SocketIO0A10AckEmitterC"
+- !private "8SocketIO0A11ClientEventO"
+- !private "8SocketIO0A4DataP"
+- "8SocketIO0A14DataBufferableP"
+- "8SocketIO0A12EngineClientP"
+- !private "8SocketIO0A8IOClientC"
+- "8SocketIO0A14IOClientOptionO"
+- !private "8SocketIO0A12IOClientSpecP"
+- "8SocketIO0A7ManagerC"
+- "8SocketIO0A11ManagerSpecP"
+- "8SocketIO0A8ParsableP"
+- "10Foundation3URLV"
+- !private "s14_ArrayProtocolP"
+- "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- "s34_ExpressibleByFileReferenceLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/XPC.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/ObjectiveC.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/Dispatch.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/Darwin.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/Foundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/CoreFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/CoreGraphics.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/Swift.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/IOKit.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Combine.framework/Modules/Combine.swiftmodule/x86_64-apple-macos.swiftinterface"
+- "/Users/alex/Desktop/MyApps/BetSocketLib/.build/x86_64-apple-macosx/debug/SocketIO.swiftmodule"
+- "/Users/alex/Desktop/MyApps/BetSocketLib/.build/x86_64-apple-macosx/debug/Starscream.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/alex/Desktop/MyApps/BetSocketLib/.build/checkouts/swift-nio-zlib-support/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "152cbb547bbb79b4312b2b7ff148013d"

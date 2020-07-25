@@ -1,0 +1,178 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ClientOption"
+- "SocketIOClientOption"
+- "=="
+provides-nominal:
+- "8SocketIO12ClientOptionP"
+- "8SocketIO0A14IOClientOptionO"
+provides-member:
+- ["8SocketIO12ClientOptionP", ""]
+- ["8SocketIO0A14IOClientOptionO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "ClientOption"
+- "CustomStringConvertible"
+- "DispatchQueue"
+- "Double"
+- "Equatable"
+- "HTTPCookie"
+- "Int"
+- "SSLSecurity"
+- "SocketIOClientOption"
+- "SocketLogger"
+- "String"
+- !private "StringLiteralType"
+- "URLSessionDelegate"
+depends-member:
+- ["8SocketIO12ClientOptionP", "=="]
+- ["8SocketIO12ClientOptionP", ""]
+- ["8SocketIO12ClientOptionP", "compress"]
+- ["8SocketIO12ClientOptionP", "connectParams"]
+- ["8SocketIO12ClientOptionP", "cookies"]
+- ["8SocketIO12ClientOptionP", "description"]
+- ["8SocketIO12ClientOptionP", "extraHeaders"]
+- ["8SocketIO12ClientOptionP", "forceNew"]
+- ["8SocketIO12ClientOptionP", "forcePolling"]
+- ["8SocketIO12ClientOptionP", "forceWebsockets"]
+- ["8SocketIO12ClientOptionP", "getSocketIOOptionValue"]
+- ["8SocketIO12ClientOptionP", "handleQueue"]
+- ["8SocketIO12ClientOptionP", "log"]
+- ["8SocketIO12ClientOptionP", "logger"]
+- ["8SocketIO12ClientOptionP", "path"]
+- ["8SocketIO12ClientOptionP", "randomizationFactor"]
+- ["8SocketIO12ClientOptionP", "reconnectAttempts"]
+- ["8SocketIO12ClientOptionP", "reconnectWait"]
+- ["8SocketIO12ClientOptionP", "reconnectWaitMax"]
+- ["8SocketIO12ClientOptionP", "reconnects"]
+- ["8SocketIO12ClientOptionP", "secure"]
+- ["8SocketIO12ClientOptionP", "security"]
+- ["8SocketIO12ClientOptionP", "selfSigned"]
+- ["8SocketIO12ClientOptionP", "sessionDelegate"]
+- ["s23CustomStringConvertibleP", "=="]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "compress"]
+- ["s23CustomStringConvertibleP", "connectParams"]
+- ["s23CustomStringConvertibleP", "cookies"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "extraHeaders"]
+- ["s23CustomStringConvertibleP", "forceNew"]
+- ["s23CustomStringConvertibleP", "forcePolling"]
+- ["s23CustomStringConvertibleP", "forceWebsockets"]
+- ["s23CustomStringConvertibleP", "getSocketIOOptionValue"]
+- ["s23CustomStringConvertibleP", "handleQueue"]
+- ["s23CustomStringConvertibleP", "log"]
+- ["s23CustomStringConvertibleP", "logger"]
+- ["s23CustomStringConvertibleP", "path"]
+- ["s23CustomStringConvertibleP", "randomizationFactor"]
+- ["s23CustomStringConvertibleP", "reconnectAttempts"]
+- ["s23CustomStringConvertibleP", "reconnectWait"]
+- ["s23CustomStringConvertibleP", "reconnectWaitMax"]
+- ["s23CustomStringConvertibleP", "reconnects"]
+- ["s23CustomStringConvertibleP", "secure"]
+- ["s23CustomStringConvertibleP", "security"]
+- ["s23CustomStringConvertibleP", "selfSigned"]
+- ["s23CustomStringConvertibleP", "sessionDelegate"]
+- ["SQ", "=="]
+- ["SQ", ""]
+- ["SQ", "compress"]
+- ["SQ", "connectParams"]
+- ["SQ", "cookies"]
+- ["SQ", "description"]
+- ["SQ", "extraHeaders"]
+- ["SQ", "forceNew"]
+- ["SQ", "forcePolling"]
+- ["SQ", "forceWebsockets"]
+- ["SQ", "getSocketIOOptionValue"]
+- ["SQ", "handleQueue"]
+- ["SQ", "log"]
+- ["SQ", "logger"]
+- ["SQ", "path"]
+- ["SQ", "randomizationFactor"]
+- ["SQ", "reconnectAttempts"]
+- ["SQ", "reconnectWait"]
+- ["SQ", "reconnectWaitMax"]
+- ["SQ", "reconnects"]
+- ["SQ", "secure"]
+- ["SQ", "security"]
+- ["SQ", "selfSigned"]
+- ["SQ", "sessionDelegate"]
+- ["8SocketIO0A14IOClientOptionO", "=="]
+- ["8SocketIO0A14IOClientOptionO", "Bool"]
+- ["8SocketIO0A14IOClientOptionO", "DispatchQueue"]
+- ["8SocketIO0A14IOClientOptionO", "Double"]
+- ["8SocketIO0A14IOClientOptionO", "HTTPCookie"]
+- ["8SocketIO0A14IOClientOptionO", "Int"]
+- ["8SocketIO0A14IOClientOptionO", "SSLSecurity"]
+- ["8SocketIO0A14IOClientOptionO", "SocketIOClientOption"]
+- ["8SocketIO0A14IOClientOptionO", "SocketLogger"]
+- ["8SocketIO0A14IOClientOptionO", "String"]
+- ["8SocketIO0A14IOClientOptionO", "URLSessionDelegate"]
+- ["8SocketIO0A14IOClientOptionO", "compress"]
+- ["8SocketIO0A14IOClientOptionO", "connectParams"]
+- ["8SocketIO0A14IOClientOptionO", "cookies"]
+- ["8SocketIO0A14IOClientOptionO", "deinit"]
+- ["8SocketIO0A14IOClientOptionO", "description"]
+- ["8SocketIO0A14IOClientOptionO", "extraHeaders"]
+- ["8SocketIO0A14IOClientOptionO", "forceNew"]
+- ["8SocketIO0A14IOClientOptionO", "forcePolling"]
+- ["8SocketIO0A14IOClientOptionO", "forceWebsockets"]
+- ["8SocketIO0A14IOClientOptionO", "getSocketIOOptionValue"]
+- ["8SocketIO0A14IOClientOptionO", "handleQueue"]
+- ["8SocketIO0A14IOClientOptionO", "log"]
+- ["8SocketIO0A14IOClientOptionO", "logger"]
+- ["8SocketIO0A14IOClientOptionO", "path"]
+- ["8SocketIO0A14IOClientOptionO", "randomizationFactor"]
+- ["8SocketIO0A14IOClientOptionO", "reconnectAttempts"]
+- ["8SocketIO0A14IOClientOptionO", "reconnectWait"]
+- ["8SocketIO0A14IOClientOptionO", "reconnectWaitMax"]
+- ["8SocketIO0A14IOClientOptionO", "reconnects"]
+- ["8SocketIO0A14IOClientOptionO", "secure"]
+- ["8SocketIO0A14IOClientOptionO", "security"]
+- ["8SocketIO0A14IOClientOptionO", "selfSigned"]
+- ["8SocketIO0A14IOClientOptionO", "sessionDelegate"]
+depends-nominal:
+- "8SocketIO12ClientOptionP"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- "8SocketIO0A14IOClientOptionO"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/XPC.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/ObjectiveC.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/Dispatch.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/Darwin.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/Foundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/CoreFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/CoreGraphics.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/Swift.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/IOKit.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Combine.framework/Modules/Combine.swiftmodule/x86_64-apple-macos.swiftinterface"
+- "/Users/alex/Desktop/MyApps/BetSocketLib/.build/x86_64-apple-macosx/debug/Starscream.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/alex/Desktop/MyApps/BetSocketLib/.build/checkouts/swift-nio-zlib-support/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "84c2a30fba2c78f8b74b6f25ef6236c4"

@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+options: "58a874d9a1cc8b85d5a939ca4e816554"
+build_time: [1595510704, 933109000]
+inputs:
+  "/Users/alex/Desktop/MyApps/BetSocketLib/Sources/BetSocketLayer/BetSocketLayer.swift": [1595492316, 694997930]
+  "/Users/alex/Desktop/MyApps/BetSocketLib/Sources/BetSocketLayer/NewSocket.swift": [1595510545, 672031116]

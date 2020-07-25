@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+options: "60248abe95d2770205186e3333c3d858"
+build_time: [1595510664, 962967000]
+inputs:
+  "/Users/alex/Desktop/MyApps/BetSocketLib/.build/checkouts/Starscream/Sources/Starscream/Compression.swift": [1595445012, 342791121]
+  "/Users/alex/Desktop/MyApps/BetSocketLib/.build/checkouts/Starscream/Sources/Starscream/SSLClientCertificate.swift": [1595445012, 343311960]
+  "/Users/alex/Desktop/MyApps/BetSocketLib/.build/checkouts/Starscream/Sources/Starscream/SSLSecurity.swift": [1595445012, 343664751]
+  "/Users/alex/Desktop/MyApps/BetSocketLib/.build/checkouts/Starscream/Sources/Starscream/WebSocket.swift": [1595445012, 344316386]

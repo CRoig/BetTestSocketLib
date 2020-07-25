@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/Users/alex/Desktop/MyApps/BetSocketLib/.build/x86_64-apple-macosx/debug/BetSocketLayer.build/master.swiftdeps"
+  },
+  "/Users/alex/Desktop/MyApps/BetSocketLib/Sources/BetSocketLayer/BetSocketLayer.swift": {
+    "dependencies": "/Users/alex/Desktop/MyApps/BetSocketLib/.build/x86_64-apple-macosx/debug/BetSocketLayer.build/BetSocketLayer.d",
+    "object": "/Users/alex/Desktop/MyApps/BetSocketLib/.build/x86_64-apple-macosx/debug/BetSocketLayer.build/BetSocketLayer.swift.o",
+    "swiftmodule": "/Users/alex/Desktop/MyApps/BetSocketLib/.build/x86_64-apple-macosx/debug/BetSocketLayer.build/BetSocketLayer~partial.swiftmodule",
+    "swift-dependencies": "/Users/alex/Desktop/MyApps/BetSocketLib/.build/x86_64-apple-macosx/debug/BetSocketLayer.build/BetSocketLayer.swiftdeps"
+  },
+  "/Users/alex/Desktop/MyApps/BetSocketLib/Sources/BetSocketLayer/NewSocket.swift": {
+    "dependencies": "/Users/alex/Desktop/MyApps/BetSocketLib/.build/x86_64-apple-macosx/debug/BetSocketLayer.build/NewSocket.d",
+    "object": "/Users/alex/Desktop/MyApps/BetSocketLib/.build/x86_64-apple-macosx/debug/BetSocketLayer.build/NewSocket.swift.o",
+    "swiftmodule": "/Users/alex/Desktop/MyApps/BetSocketLib/.build/x86_64-apple-macosx/debug/BetSocketLayer.build/NewSocket~partial.swiftmodule",
+    "swift-dependencies": "/Users/alex/Desktop/MyApps/BetSocketLib/.build/x86_64-apple-macosx/debug/BetSocketLayer.build/NewSocket.swiftdeps"
+  }
+}
