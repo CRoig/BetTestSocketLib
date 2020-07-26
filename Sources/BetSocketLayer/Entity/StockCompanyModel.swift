@@ -1,7 +1,7 @@
 
 import Foundation
 
-public class StockCompany: Codable {
+public final class StockCompany: Codable {
     var type: String
     public var data: [StockCompanyData]
 }

@@ -1,24 +1,24 @@
 import Starscream
 import Foundation
 
-protocol SocketLayerDelegate {
+protocol SocketLayer {
     func startConnect(completionResponse:@escaping (StockCompanyData) -> (), completionConnect:@escaping (Bool, Error?) -> ())
     func handleSubscription(with state: SubscriptionState, _ companySymbol: String) 
 }
 
-class SocketLayer: WebSocketDelegate, SocketLayerDelegate {
+final class SocketLayerImp: WebSocketDelegate, SocketLayer {
     
     var completionResponse:((StockCompanyData) -> Void)?
     var completionConnection:((Bool, Error?) -> Void)?
     
-    var socket: WebSocket!
-    let server = WebSocketServer()
-    var token: String
-    
-    let encoder = JSONEncoder()
+    private var socket: WebSocket!
+    private let server = WebSocketServer()
+    private var token: String
+    private let encoder = JSONEncoder()
     
     init(token: String) {
         self.token = token
+        //TODO: URL must be stored as baseURL, path and so on
         var request = URLRequest(url: URL(string: "wss://ws.finnhub.io/?token=\(token)")!)
         request.timeoutInterval = 1
         socket = WebSocket(request: request)
@@ -38,10 +38,9 @@ class SocketLayer: WebSocketDelegate, SocketLayerDelegate {
         }
     }
     
-    public func didReceive(event: WebSocketEvent, client: WebSocket) {
+    internal func didReceive(event: WebSocketEvent, client: WebSocket) {
         switch event {
         case .connected(let headers):
-            print("websocket is connected: \(headers)")
             completionConnection?(true, nil)
         case .disconnected( _, _):
             completionConnection?(false, SocketError.disconnected)

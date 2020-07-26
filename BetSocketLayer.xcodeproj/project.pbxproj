@@ -21,6 +21,7 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		FAC5FB1824CD681D006F3E60 /* SocketLayerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC5FB1724CD681D006F3E60 /* SocketLayerMock.swift */; };
 		OBJ_100 /* FoundationHTTPHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_31 /* FoundationHTTPHandler.swift */; };
 		OBJ_101 /* FoundationHTTPServerHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_32 /* FoundationHTTPServerHandler.swift */; };
 		OBJ_102 /* FrameCollector.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_33 /* FrameCollector.swift */; };
@@ -42,7 +43,7 @@
 		OBJ_62 /* SocketProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* SocketProvider.swift */; };
 		OBJ_64 /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Starscream::Starscream::Product" /* Starscream.framework */; };
 		OBJ_72 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
-		OBJ_83 /* BetSocketLayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* BetSocketLayerTests.swift */; };
+		OBJ_83 /* SocketProviderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* SocketProviderTests.swift */; };
 		OBJ_84 /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* XCTestManifests.swift */; };
 		OBJ_86 /* BetSocketLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "BetSocketLayer::BetSocketLayer::Product" /* BetSocketLayer.framework */; };
 		OBJ_87 /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Starscream::Starscream::Product" /* Starscream.framework */; };
@@ -87,11 +88,12 @@
 
 /* Begin PBXFileReference section */
 		"BetSocketLayer::BetSocketLayer::Product" /* BetSocketLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = BetSocketLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"BetSocketLayer::BetSocketLayerTests::Product" /* BetSocketLayerTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = BetSocketLayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		"BetSocketLayer::BetSocketLayerTests::Product" /* BetSocketLayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = BetSocketLayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAC5FB1724CD681D006F3E60 /* SocketLayerMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketLayerMock.swift; sourceTree = "<group>"; };
 		OBJ_11 /* SocketError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketError.swift; sourceTree = "<group>"; };
 		OBJ_12 /* StockCompanyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockCompanyModel.swift; sourceTree = "<group>"; };
 		OBJ_13 /* SocketProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketProvider.swift; sourceTree = "<group>"; };
-		OBJ_16 /* BetSocketLayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetSocketLayerTests.swift; sourceTree = "<group>"; };
+		OBJ_16 /* SocketProviderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketProviderTests.swift; sourceTree = "<group>"; };
 		OBJ_17 /* XCTestManifests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestManifests.swift; sourceTree = "<group>"; };
 		OBJ_20 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = /Users/alex/Desktop/MyApps/BetSocketLib/.build/checkouts/Starscream/Package.swift; sourceTree = "<group>"; };
 		OBJ_22 /* Compression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Compression.swift; sourceTree = "<group>"; };
@@ -148,6 +150,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FAC5FB1924CD6970006F3E60 /* SocketLayer */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_9 /* BetSocketLayer.swift */,
+			);
+			path = SocketLayer;
+			sourceTree = "<group>";
+		};
 		OBJ_10 /* Entity */ = {
 			isa = PBXGroup;
 			children = (
@@ -168,8 +178,9 @@
 		OBJ_15 /* BetSocketLayerTests */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_16 /* BetSocketLayerTests.swift */,
+				OBJ_16 /* SocketProviderTests.swift */,
 				OBJ_17 /* XCTestManifests.swift */,
+				FAC5FB1724CD681D006F3E60 /* SocketLayerMock.swift */,
 			);
 			name = BetSocketLayerTests;
 			path = Tests/BetSocketLayerTests;
@@ -309,9 +320,9 @@
 		OBJ_8 /* BetSocketLayer */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_9 /* BetSocketLayer.swift */,
-				OBJ_10 /* Entity */,
 				OBJ_13 /* SocketProvider.swift */,
+				OBJ_10 /* Entity */,
+				FAC5FB1924CD6970006F3E60 /* SocketLayer */,
 			);
 			name = BetSocketLayer;
 			path = Sources/BetSocketLayer;
@@ -447,6 +458,7 @@
 				OBJ_60 /* SocketError.swift in Sources */,
 				OBJ_61 /* StockCompanyModel.swift in Sources */,
 				OBJ_62 /* SocketProvider.swift in Sources */,
+				FAC5FB1824CD681D006F3E60 /* SocketLayerMock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,7 +474,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_83 /* BetSocketLayerTests.swift in Sources */,
+				OBJ_83 /* SocketProviderTests.swift in Sources */,
 				OBJ_84 /* XCTestManifests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -709,7 +721,7 @@
 					"$(SRCROOT)/.build/checkouts/swift-nio-zlib-support",
 				);
 				INFOPLIST_FILE = BetSocketLayer.xcodeproj/BetSocketLayerTests_Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				OTHER_CFLAGS = "$(inherited)";
@@ -740,7 +752,7 @@
 					"$(SRCROOT)/.build/checkouts/swift-nio-zlib-support",
 				);
 				INFOPLIST_FILE = BetSocketLayer.xcodeproj/BetSocketLayerTests_Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				OTHER_CFLAGS = "$(inherited)";
