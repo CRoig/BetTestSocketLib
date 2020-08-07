@@ -39,6 +39,7 @@ final class SocketLayerImp: WebSocketDelegate, SocketLayer {
         var request = URLRequest(url: URL(string: "wss://ws.finnhub.io/?token=\(token)")!)
         request.timeoutInterval = 1
         socket = WebSocket(request: request)
+        socket.enableCompression = false
         socket.delegate = self
     }
     
