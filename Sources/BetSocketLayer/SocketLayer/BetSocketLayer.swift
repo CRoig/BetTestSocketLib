@@ -7,12 +7,29 @@ protocol SocketLayer {
 }
 
 final class SocketLayerImp: WebSocketDelegate, SocketLayer {
+    func websocketDidConnect(socket: WebSocketClient) {
+         completionConnection?(true, nil)
+    }
+    
+    func websocketDidDisconnect(socket: WebSocketClient, error: Error?) {
+        completionConnection?(false, SocketError.disconnected)
+    }
+    
+    func websocketDidReceiveMessage(socket: WebSocketClient, text: String) {
+        do {
+            let company = try JSONDecoder().decode(StockCompany.self, from: text.data(using: .utf8)!)
+            completionResponse?(company.data.first!)
+        } catch {}
+    }
+    
+    func websocketDidReceiveData(socket: WebSocketClient, data: Data) {}
+    
     
     var completionResponse:((StockCompanyData) -> Void)?
     var completionConnection:((Bool, Error?) -> Void)?
     
     private var socket: WebSocket!
-    private let server = WebSocketServer()
+//    private let server = WebSocketServer()
     private var token: String
     private let encoder = JSONEncoder()
     
@@ -38,22 +55,22 @@ final class SocketLayerImp: WebSocketDelegate, SocketLayer {
         }
     }
     
-    internal func didReceive(event: WebSocketEvent, client: WebSocket) {
-        switch event {
-        case .connected(let headers):
-            completionConnection?(true, nil)
-        case .disconnected( _, _):
-            completionConnection?(false, SocketError.disconnected)
-        case .text(let string):
-            do {
-                let company = try JSONDecoder().decode(StockCompany.self, from: string.data(using: .utf8)!)
-                completionResponse?(company.data.first!)
-            } catch {
-                break
-            }
-        case .error(let error):
-            completionConnection?(false, error)
-        default: break
-        }
-    }
+//    internal func didReceive(event: WebSocketEvent, client: WebSocket) {
+//        switch event {
+//        case .connected(let headers):
+//            completionConnection?(true, nil)
+//        case .disconnected( _, _):
+//            completionConnection?(false, SocketError.disconnected)
+//        case .text(let string):
+//            do {
+//                let company = try JSONDecoder().decode(StockCompany.self, from: string.data(using: .utf8)!)
+//                completionResponse?(company.data.first!)
+//            } catch {
+//                break
+//            }
+//        case .error(let error):
+//            completionConnection?(false, error)
+//        default: break
+//        }
+//    }
 }
